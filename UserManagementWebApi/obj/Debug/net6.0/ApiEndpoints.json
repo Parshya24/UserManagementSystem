@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
+    "Method": "AssignRole",
+    "RelativePath": "api/auth/AssignRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqModel",
+        "Type": "CommonClassLibrary.Dto.SignUpRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
+    "Method": "Login",
+    "RelativePath": "api/auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqModel",
+        "Type": "CommonClassLibrary.Dto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
+    "Method": "SignUp",
+    "RelativePath": "api/auth/SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqModel",
+        "Type": "CommonClassLibrary.Dto.SignUpRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
