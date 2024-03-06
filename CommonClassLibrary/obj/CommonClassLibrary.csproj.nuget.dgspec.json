@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\CommonClassLibrary\\CommonClassLibrary.csproj": {}
+    "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\CommonClassLibrary.csproj": {}
   },
   "projects": {
-    "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\CommonClassLibrary\\CommonClassLibrary.csproj": {
+    "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\CommonClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\CommonClassLibrary\\CommonClassLibrary.csproj",
+        "projectUniqueName": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\CommonClassLibrary.csproj",
         "projectName": "CommonClassLibrary",
-        "projectPath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\CommonClassLibrary\\CommonClassLibrary.csproj",
+        "projectPath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\CommonClassLibrary.csproj",
         "packagesPath": "C:\\Users\\User.admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\CommonClassLibrary\\obj\\",
+        "outputPath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

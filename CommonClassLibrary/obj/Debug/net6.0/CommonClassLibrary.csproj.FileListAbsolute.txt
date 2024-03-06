@@ -9,3 +9,15 @@ E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystem\UserManagementSystem\Com
 E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystem\UserManagementSystem\CommonClassLibrary\obj\Debug\net6.0\refint\CommonClassLibrary.dll
 E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystem\UserManagementSystem\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.pdb
 E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystem\UserManagementSystem\CommonClassLibrary\obj\Debug\net6.0\ref\CommonClassLibrary.dll
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\bin\Debug\net6.0\CommonClassLibrary.deps.json
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\bin\Debug\net6.0\CommonClassLibrary.dll
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\bin\Debug\net6.0\CommonClassLibrary.pdb
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.AssemblyInfoInputs.cache
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.AssemblyInfo.cs
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.csproj.CoreCompileInputs.cache
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.sourcelink.json
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.dll
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\refint\CommonClassLibrary.dll
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\CommonClassLibrary.pdb
+E:\Prashant2024\JobHunt2024\GitHub\UserManagementSystemV1\CommonClassLibrary\obj\Debug\net6.0\ref\CommonClassLibrary.dll

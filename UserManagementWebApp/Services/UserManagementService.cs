@@ -33,6 +33,21 @@ namespace UserManagementWebApp.Services
             await _userManagementRepository.SignUpAsync(_signUpRequestDto);
         }
 
+        public async Task<List<UserDto>> GetAllUsersAsync()
+        {
+            List<UserDto> users = new();
+
+            ResponseDto? response = await _userManagementRepository.GetUsersAsync();
+
+            if (response != null && response.IsSuccess)
+            {
+                users = JsonConvert.DeserializeObject<List<UserDto>>(Convert.ToString(response.Result));
+            }
+
+            return users;
+        }
+
+
         public async Task AssignRoleAsync(SignUpRequestDto signUpRequestDto)
         {
             throw new NotImplementedException();

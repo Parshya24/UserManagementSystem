@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FBp0JwxvEGO0Gb6TorWnjR+OlRJ/X4x0WJc1zPbaIBBSmwchJzMAz8fAk8XuPfrGpVzGUWe75Rgkm7Yv/7DoLg==",
+  "dgSpecHash": "VBrqbfZ1it+eMyaj28PjbNUfzbRKIH8S0g4KZIyA9yF04vmhWNjMi0vs9iiQFNynQ3KStjuhE203cs/hAhT3jA==",
   "success": true,
-  "projectFilePath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystem\\UserManagementSystem\\UserManagementWebApi\\UserManagementWebApi.csproj",
+  "projectFilePath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\UserManagementWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User.admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User.admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",

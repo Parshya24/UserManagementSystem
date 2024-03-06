@@ -1,14 +1,22 @@
 ﻿using CommonClassLibrary.Dto;
 using Microsoft.AspNetCore.Mvc;
+using UserManagementWebApp.Services.IServices;
 using UserManagementWebApp.ViewModels;
 
 namespace UserManagementWebApp.Controllers
 {
     public class UserProfileManagementController : Controller
     {
+        private readonly IUserManagementService _userManagementService;
+        
+        public UserProfileManagementController(IUserManagementService userManagementService)
+        {
+            _userManagementService = userManagementService;
+        }
+
         public IActionResult Index()
         {
-            List<UserDto> users = new List<UserDto>();
+            var users = _userManagementService.GetAllUsersAsync().Result;
             return View(users);
         }
 
@@ -17,7 +25,12 @@ namespace UserManagementWebApp.Controllers
             return View();
         }
 
-        [HttpPut]
+		public IActionResult Delete()
+		{
+			return View();
+		}
+
+		[HttpPut]
         public async Task<IActionResult> EditUserPut(SignUpViewModel viewModel)
         {
             SignUpRequestDto signUpRequestDto = new SignUpRequestDto

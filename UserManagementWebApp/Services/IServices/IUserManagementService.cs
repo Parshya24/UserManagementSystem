@@ -8,6 +8,8 @@ namespace UserManagementWebApp.Services.IServices
 
         Task<LoginResponseDto> LoginAsync(LoginRequestDto loginRequestDto);
 
+        Task<List<UserDto>> GetAllUsersAsync();
+
         Task AssignRoleAsync(SignUpRequestDto signUpRequestDto);
     }
 }

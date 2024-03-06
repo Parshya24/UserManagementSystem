@@ -52,7 +52,6 @@ namespace UserManagementWebApi.Services
 
             return loginResponseDto;
         }
-
         public async Task<string> SignUp(SignUpRequestDto signUpRequestDto)
         {
             ApplicationUser user = new()
@@ -109,13 +108,14 @@ namespace UserManagementWebApi.Services
         }
         public async Task<List<UserDto>> GetAllUsers()
         {
-            var users = _appDbContext.ApplicationUsers(u => u).ToList();
-
-            if (users.Any())
-            {
-                return users;
-            }
-
+            var users = _appDbContext.ApplicationUsers
+                          .Select(u => new UserDto
+                          {
+                              Id = u.Id,
+                              Name = $"{u.FirstName} + {u.LastName}",
+                              Email = u.Email,
+                          })
+                          .ToList();
             return users;
         }
     }

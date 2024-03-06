@@ -125,13 +125,10 @@
                 @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password", required = "required" })
             </div>
             <div class="form-group">
-                @Html.DropDownListFor(m => m.RoleName, new SelectList(ViewBag.RoleList))
-            </div>
-            <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
             </div>
         }
-        <div class="hint-text">Already have an account? <a href="#">Login here</a></div>
+        <div class="hint-text">Already have an account? @Html.ActionLink("Login", "Index", "UserManagement")</div>
     </div>
 </div>
 

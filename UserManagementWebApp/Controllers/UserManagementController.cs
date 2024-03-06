@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using UserManagementWebApp.ViewModels;
 using CommonClassLibrary.Dto;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using UserManagementWebApp.Services.IServices;
 
 namespace UserManagementWebApp.Controllers
@@ -44,12 +43,6 @@ namespace UserManagementWebApp.Controllers
         public IActionResult SignUp()
         {
             var viewModel = new SignUpViewModel();
-            var roleList = new List<SelectListItem>()
-            {
-                new SelectListItem {Text = SD.RoleAdmin,Value = SD.RoleAdmin},
-                new SelectListItem {Text = SD.RoleCustomer,Value = SD.RoleCustomer}
-            };
-            ViewBag.RoleList = roleList;
             return View("SignUp", viewModel);
         }
 

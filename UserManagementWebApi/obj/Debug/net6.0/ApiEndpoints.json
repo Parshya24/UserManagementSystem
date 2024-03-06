@@ -46,5 +46,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
+    "Method": "Users",
+    "RelativePath": "api/auth/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

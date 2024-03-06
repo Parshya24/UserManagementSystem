@@ -60,14 +60,14 @@ namespace UserManagementWebApi.Controllers
         [HttpGet("Users")]
         public async Task<IActionResult> Users()
         {
-            var loginResponse = await _authService.GetAllUsers();
-            if (loginResponse.User == null)
+            var users = await _authService.GetAllUsers();
+            if (!users.Any())
             {
                 _response.IsSuccess = false;
-                _response.Message = $"Username or password is incorrect";
+                _response.Message = $"No Data found";
                 return BadRequest(_response);
             }
-            _response.Result = loginResponse;
+            _response.Result = users;
             return Ok(_response);
         }
     }
