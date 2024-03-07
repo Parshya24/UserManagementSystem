@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using CommonClassLibrary.Dto;
 using UserManagementWebApi.Services.IServices;
 
@@ -68,6 +67,20 @@ namespace UserManagementWebApi.Controllers
                 return BadRequest(_response);
             }
             _response.Result = users;
+            return Ok(_response);
+        }
+
+        [HttpGet("GetUserById")]
+        public async Task<IActionResult> GetUserById(string userId)
+        {
+            var user = await _authService.GetUserById(userId);
+            if (user == null)
+            {
+                _response.IsSuccess = false;
+                _response.Message = $"No Data found";
+                return BadRequest(_response);
+            }
+            _response.Result = user;
             return Ok(_response);
         }
     }

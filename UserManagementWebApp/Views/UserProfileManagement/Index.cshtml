@@ -18,7 +18,10 @@
 			<thead>
 				<tr>
 					<th>
-						Name
+						First Name
+					</th>
+					<th>
+						Last Name
 					</th>
 					<th>
 						Email
@@ -30,21 +33,22 @@
 				@foreach(var item in Model)
 				{
 				<tr>
-					<td> @item.Name</td>
+					<td> @item.FirstName</td>
+					<td> @item.LastName</td>
 					<td> @item.Email</td>
 					<td>
 						@Html.ActionLink(
 						"Edit",
 						"Edit",
 						"UserProfileManagement",
-						new { id = item.Id })
+						new { id = @item.Id })
 					</td>
 					<td>
 						@Html.ActionLink(
 						"Delete",
 						"Delete",
 						"UserProfileManagement",
-						new { id = item.Id },
+						new { id = @item.Id },
 						new { onclick = "return confirm('Are you sure you wish to delete this user?');" })
 					</td>
 			    </tr>

@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
+    "Method": "GetUserById",
+    "RelativePath": "api/auth/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.AuthApiController",
     "Method": "Login",
     "RelativePath": "api/auth/Login",
     "HttpMethod": "POST",
@@ -55,6 +71,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagementWebApi.Controllers.UserProfileApiController",
+    "Method": "EditUser",
+    "RelativePath": "api/userprofile/EditUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqModel",
+        "Type": "CommonClassLibrary.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -8,5 +8,6 @@ namespace UserManagementWebApi.Services.IServices
         Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto);
         Task<bool> AssignRole(string userName, string roleName);
         Task<List<UserDto>> GetAllUsers();
+        Task<UserDto> GetUserById(string userId);
     }
 }

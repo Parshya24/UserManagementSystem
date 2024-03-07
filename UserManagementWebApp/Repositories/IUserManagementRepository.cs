@@ -11,5 +11,9 @@ namespace UserManagementWebApp.Repositories
         Task<ResponseDto> AssignRoleAsync(SignUpRequestDto signUpRequestDto);
 
         Task<ResponseDto> GetUsersAsync();
+
+        Task<ResponseDto> GetUserByIdAsync(string userId);
+
+        Task<ResponseDto> EditUserAsync(UserDto user);
     }
 }

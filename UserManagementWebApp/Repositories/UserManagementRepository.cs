@@ -60,5 +60,20 @@ namespace UserManagementWebApp.Repositories
                      .AppendPathSegment("/api/auth/Users")
                      .GetJsonAsync<ResponseDto>();
         }
+
+        public async Task<ResponseDto> GetUserByIdAsync(string userId)
+        {
+            return await SD.AuthAPIBase
+                     .AppendPathSegment($"/api/auth/GetUserById")
+                     .SetQueryParam("userId", userId)
+                     .GetJsonAsync<ResponseDto>();
+        }
+
+        public async Task<ResponseDto> EditUserAsync(UserDto user)
+        {
+            return await SD.AuthAPIBase
+                  .AppendPathSegment("/api/userprofile/SignUp")
+                  .PostJsonAsync(user).ReceiveJson<ResponseDto>();
+        }
     }
 }

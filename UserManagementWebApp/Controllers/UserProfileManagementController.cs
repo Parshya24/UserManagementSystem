@@ -1,5 +1,6 @@
 ﻿using CommonClassLibrary.Dto;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using UserManagementWebApp.Services.IServices;
 using UserManagementWebApp.ViewModels;
 
@@ -20,31 +21,16 @@ namespace UserManagementWebApp.Controllers
             return View(users);
         }
 
-        public IActionResult Edit()
+        public IActionResult Edit(string id)
         {
-            return View();
+            var user =  _userManagementService.GetUserByIdAsync(id).Result;
+            return View("EditUser", user);
         }
 
-		public IActionResult Delete()
-		{
-			return View();
-		}
-
 		[HttpPut]
-        public async Task<IActionResult> EditUserPut(SignUpViewModel viewModel)
+        public async Task<IActionResult> EditUserPut(UserDto viewModel)
         {
-            SignUpRequestDto signUpRequestDto = new SignUpRequestDto
-            {
-                FirstName = viewModel.FirstName,
-                LastName = viewModel.LastName,
-                Email = viewModel.Email,
-                Password = viewModel.Password,
-                UserName = viewModel.UserName,
-                RoleName = viewModel.RoleName
-
-
-            };
-            ///await _userManagementService.SignUpAsync(signUpRequestDto);
+            await _userManagementService.EditUserAsync(viewModel);
 
             return RedirectToAction("Index");
         }

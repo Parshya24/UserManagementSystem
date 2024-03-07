@@ -47,10 +47,28 @@ namespace UserManagementWebApp.Services
             return users;
         }
 
-
-        public async Task AssignRoleAsync(SignUpRequestDto signUpRequestDto)
+        public async Task<UserDto> GetUserByIdAsync(string userId)
         {
-            throw new NotImplementedException();
+            UserDto user = new();
+
+            ResponseDto? response = await _userManagementRepository.GetUserByIdAsync(userId);
+
+            if (response != null && response.IsSuccess)
+            {
+                user = JsonConvert.DeserializeObject<UserDto>(Convert.ToString(response.Result));
+            }
+
+            return user;
+        }
+
+        public async Task EditUserAsync(UserDto userDto)
+        {
+            ResponseDto? response = await _userManagementRepository.EditUserAsync(userDto);
+
+            if (response != null && response.IsSuccess)
+            {
+                //user = JsonConvert.DeserializeObject<UserDto>(Convert.ToString(response.Result));
+            }
         }
     }
 }

@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\controllers\\userprofilemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\controllers\\userprofilemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|solutionrelative:usermanagementwebapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|solutionrelative:usermanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\views\\userprofilemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\views\\userprofilemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|solutionrelative:usermanagementwebapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\views\\userprofilemanagement\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\views\\userprofilemanagement\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|solutionrelative:usermanagementwebapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C2D6EF2-EC60-4976-B1C3-7574EDE62CAC}|CommonClassLibrary\\CommonClassLibrary.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\commonclasslibrary\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C2D6EF2-EC60-4976-B1C3-7574EDE62CAC}|CommonClassLibrary\\CommonClassLibrary.csproj|solutionrelative:commonclasslibrary\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C2D6EF2-EC60-4976-B1C3-7574EDE62CAC}|CommonClassLibrary\\CommonClassLibrary.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\commonclasslibrary\\constant\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2D6EF2-EC60-4976-B1C3-7574EDE62CAC}|CommonClassLibrary\\CommonClassLibrary.csproj|solutionrelative:commonclasslibrary\\constant\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\views\\usermanagement\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\views\\usermanagement\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapi\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBF750E-758F-40B0-A586-2D1A5E3FC6C9}|UserManagementWebApi\\UserManagementWebApi.csproj|solutionrelative:usermanagementwebapi\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|e:\\prashant2024\\jobhunt2024\\github\\usermanagementsystemv1\\usermanagementwebapp\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC9798-875C-4627-95AD-E318E1A73A4A}|UserManagementWebApp\\UserManagementWebApp.csproj|solutionrelative:usermanagementwebapp\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,45 +46,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
-              "RelativeDocumentMoniker": "UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
-              "RelativeToolTip": "UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T16:14:30.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "UserManagementController.cs",
               "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Controllers\\UserManagementController.cs",
               "RelativeDocumentMoniker": "UserManagementWebApp\\Controllers\\UserManagementController.cs",
               "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Controllers\\UserManagementController.cs",
               "RelativeToolTip": "UserManagementWebApp\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAkwD4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T12:36:52.742Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserProfileManagementController.cs",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Controllers\\UserProfileManagementController.cs",
-              "RelativeDocumentMoniker": "UserManagementWebApp\\Controllers\\UserProfileManagementController.cs",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Controllers\\UserProfileManagementController.cs",
-              "RelativeToolTip": "UserManagementWebApp\\Controllers\\UserProfileManagementController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Title": "AuthApiController.cs",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Controllers\\AuthApiController.cs",
+              "RelativeDocumentMoniker": "UserManagementWebApi\\Controllers\\AuthApiController.cs",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Controllers\\AuthApiController.cs",
+              "RelativeToolTip": "UserManagementWebApi\\Controllers\\AuthApiController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwEsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T12:36:47.451Z",
+              "WhenOpened": "2024-03-07T06:56:01.701Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
+              "RelativeToolTip": "UserManagementWebApp\\Views\\UserProfileManagement\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T15:20:30.34Z",
               "EditorCaption": ""
             },
             {
@@ -95,69 +97,75 @@
               "RelativeDocumentMoniker": "UserManagementWebApp\\Views\\UserProfileManagement\\EditUser.cshtml",
               "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserProfileManagement\\EditUser.cshtml",
               "RelativeToolTip": "UserManagementWebApp\\Views\\UserProfileManagement\\EditUser.cshtml",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAH4AAAAMAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAkwGoAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T12:36:04.303Z"
+              "WhenOpened": "2024-03-07T15:19:30.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserManagement\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "UserManagementWebApp\\Views\\UserManagement\\SignUp.cshtml",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Views\\UserManagement\\SignUp.cshtml",
-              "RelativeToolTip": "UserManagementWebApp\\Views\\UserManagement\\SignUp.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T12:35:09.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "UserManagementWebApi\\Services\\AuthService.cs",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Services\\AuthService.cs",
-              "RelativeToolTip": "UserManagementWebApi\\Services\\AuthService.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAgwBkAAAAMAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "UserManagementWebApi\\Services\\UserProfileService.cs",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "UserManagementWebApi\\Services\\UserProfileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T11:57:54.496Z"
+              "WhenOpened": "2024-03-07T15:18:59.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthApiController.cs",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Controllers\\AuthApiController.cs",
-              "RelativeDocumentMoniker": "UserManagementWebApi\\Controllers\\AuthApiController.cs",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Controllers\\AuthApiController.cs",
-              "RelativeToolTip": "UserManagementWebApi\\Controllers\\AuthApiController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAYwD8AAAAdAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagementWebApi\\Program.cs",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApi\\Program.cs",
+              "RelativeToolTip": "UserManagementWebApi\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwBQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T11:56:02.437Z"
+              "WhenOpened": "2024-03-07T15:18:45.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\Constant\\Constant.cs",
+              "RelativeDocumentMoniker": "CommonClassLibrary\\Constant\\Constant.cs",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\Constant\\Constant.cs",
+              "RelativeToolTip": "CommonClassLibrary\\Constant\\Constant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:22:03.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SD.cs",
               "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\Utility\\SD.cs",
               "RelativeDocumentMoniker": "CommonClassLibrary\\Utility\\SD.cs",
               "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\CommonClassLibrary\\Utility\\SD.cs",
               "RelativeToolTip": "CommonClassLibrary\\Utility\\SD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T12:37:43.331Z"
+              "WhenOpened": "2024-03-07T15:22:07.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "UserManagementWebApp\\Services\\BaseService.cs",
-              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Services\\BaseService.cs",
-              "RelativeToolTip": "UserManagementWebApp\\Services\\BaseService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserManagementService.cs",
+              "DocumentMoniker": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Services\\UserManagementService.cs",
+              "RelativeDocumentMoniker": "UserManagementWebApp\\Services\\UserManagementService.cs",
+              "ToolTip": "E:\\Prashant2024\\JobHunt2024\\GitHub\\UserManagementSystemV1\\UserManagementWebApp\\Services\\UserManagementService.cs",
+              "RelativeToolTip": "UserManagementWebApp\\Services\\UserManagementService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAnwEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T12:38:24.158Z"
+              "WhenOpened": "2024-03-07T15:26:00.574Z",
+              "EditorCaption": ""
             }
           ]
         }

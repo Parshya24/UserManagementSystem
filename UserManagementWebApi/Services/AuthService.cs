@@ -41,7 +41,9 @@ namespace UserManagementWebApi.Services
             {
                 Email = user.Email,
                 Id = user.Id,
-                Name = $"{user.FirstName} {user.LastName}"
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                UserName = user.UserName
             };
 
             LoginResponseDto loginResponseDto = new LoginResponseDto()
@@ -75,7 +77,9 @@ namespace UserManagementWebApi.Services
                     {
                         Email = userToReturn.Email,
                         Id = userToReturn.Id,
-                        Name = $"{userToReturn.FirstName} {userToReturn.LastName}"
+                        FirstName = user.FirstName,
+                        LastName = user.LastName,
+                        UserName = user.UserName
                     };
 
                     return "";
@@ -112,11 +116,38 @@ namespace UserManagementWebApi.Services
                           .Select(u => new UserDto
                           {
                               Id = u.Id,
-                              Name = $"{u.FirstName} + {u.LastName}",
+                              FirstName = u.FirstName,
+                              LastName = u.LastName,
+                              UserName = u.UserName,
                               Email = u.Email,
                           })
                           .ToList();
             return users;
         }
+
+        public Task<UserDto> GetUserById(string userId)
+        {
+            var appUser = _appDbContext.ApplicationUsers
+                            .Where(u => u.Id == userId)
+                            .FirstOrDefault();
+
+            if (appUser == null)
+            {
+                // Handle the case where the user is not found
+                return Task.FromResult<UserDto>(null); // Return null wrapped in a Task<UserDto>
+            }
+
+            UserDto user = new UserDto
+            {
+                Id = appUser.Id,
+                FirstName = appUser.FirstName,
+                LastName = appUser.LastName,
+                UserName = appUser.UserName,
+                Email = appUser.Email,
+            };
+
+            return Task.FromResult(user); // Wrap the UserDto object in a Task<UserDto>
+        }
+
     }
 }

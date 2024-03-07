@@ -10,6 +10,8 @@ namespace UserManagementWebApp.Services.IServices
 
         Task<List<UserDto>> GetAllUsersAsync();
 
-        Task AssignRoleAsync(SignUpRequestDto signUpRequestDto);
+        Task EditUserAsync(UserDto userDto);
+
+        Task<UserDto> GetUserByIdAsync(string userId);
     }
 }
